@@ -1,0 +1,29 @@
+
+        <div class="content-card">
+
+            <div class="menu-table"></div>
+            
+            <section class="latest-products">
+            <div class="content-card-row1">
+                <div class="phone-card image-card"><img src="./Assets/Images/honor.png" alt=""><button class="buy-button">Buy</button></div>
+                <div class="phone-card image-card"><img src="./Assets/Images/images.jfif" alt=""><button class="buy-button">Buy</button></div>
+                <div class="phone-card image-card"><img src="./Assets/Images/pixel.jfif" alt=""><button class="buy-button">Buy</button></div>
+                <div class="phone-card image-card"><img src="./Assets/Images/iphone.jfif" alt=""><button class="buy-button">Buy</button></div>
+            </div>
+    
+            <div class="content-card-row2">
+                <div class="phone-card image-card"><img src="./Assets/Images/samsung.jfif" alt=""><button class="buy-button">Buy</button></div>
+                <div class="phone-card image-card"><img src="./Assets/Images/honor.png" alt=""><button class="buy-button">Buy</button></div>
+                <div class="phone-card image-card"><img src="./Assets/Images/pixel.jfif" alt=""><button class="buy-button">Buy</button></div>
+                <div class="phone-card image-card"><img src="./Assets/Images/iphone.jfif" alt=""><button class="buy-button">Buy</button></div>
+            </div>
+    
+            <div class="content-card-row3">
+                <div class="phone-card image-card"><img src="./Assets/Images/images.jfif" alt=""><button class="buy-button">Buy</button></div>
+                <div class="phone-card image-card"><img src="./Assets/Images/honor.png" alt=""><button class="buy-button">Buy</button></div>
+                <div class="phone-card image-card"><img src="./Assets/Images/iphone.jfif" alt=""><button class="buy-button">Buy</button></div>
+                <div class="phone-card image-card"><img src="./Assets/Images/samsung.jfif" alt=""><button class="buy-button">Buy</button></div>
+            </div>
+            </section>
+    
+        </div>
