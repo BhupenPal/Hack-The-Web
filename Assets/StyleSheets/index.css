@@ -62,19 +62,72 @@ Head .Menu ul li hr{
     background: red;
 }
 
+.latest-products{
+  height: 100%;
+  width: 85%;
+}
+
 .content-card-row1{
     display: flex;
-    justify-content: space-between;
-    background: green;
-    height: 25%;
+    justify-content: space-evenly;
+    height: 33%;
     width: 100%;
     align-items: center;
 }
 
+.content-card-row2{
+  display: flex;
+  justify-content: space-evenly;
+  height: 33%;
+  width: 100%;
+  align-items: center;
+}
+
+.content-card-row3{
+  display: flex;
+  justify-content: space-evenly; 
+  height: 33%;
+  width: 100%;
+  align-items: center;
+}
+
 .phone-card{
-    height: 80%;
-    width: 15%;
-    background: black;
+    height: 60%;
+    width: 20%;
+}
+
+.image-card{
+  border-radius: 20px;
+  transition: 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0px 0px px 5px rgb(180, 180, 180);
+}
+
+.image-card img{
+  height: 100%;
+  width: 100%;
+}
+
+.buy-button{
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border:none;
+  z-index: 100;
+  background-color: rgb(65, 185, 255);
+  position: absolute;
+  color: white;
+  font-family: Roboto;
+  font-size: 24px;
+  transition: 0.2s;
+}
+
+.buy-button:hover{
+  background: white;
+  color: rgb(65, 185, 255);
 }
 
 /* FOOTER */
