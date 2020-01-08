@@ -8,7 +8,6 @@
     src: url('/fonts/Roboto.ttf');
 }
 
-
 .html, body{
     margin: 0;
     padding: 0;
@@ -18,10 +17,14 @@
 /* HEADER */
 .Head{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 80px;
-    background: black;
+}
+
+.menu-container{
+  width: 75%;
+  justify-content: space-between !important;
 }
 
 .Head *{
@@ -29,9 +32,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 10px;
-    font-family: Roboto;
-    color: white;
+    margin: 0 20px;
+    font-family: DM-Sans;
+    font-weight: bold;
 }
 
 .Head .Menu ul li{
@@ -39,11 +42,17 @@
     transition: 0.2s ease-in-out;
 }
 
-.Head .Menu ul li:hover{
-    color: rgb(0, 200, 0);
+.Logo *{
+  font-family: DM-Sans;
+  color: #199CDB !important;
+  text-decoration: none !important;
 }
 
-Head .Menu ul li hr{
+.Head .Menu ul li:hover{
+    color: #199CDB;
+}
+
+Head .Menu ul li{
     height: 10px;
     width: 10px;
     background-color: green;
@@ -203,8 +212,28 @@ Head .Menu ul li hr{
   align-items:center
 }
 
+.specifications{
+  margin: 50px auto;
+  width: 75%;
+}
 
+.carousel{
+  width: 600px;
+}
 
+.carousel-control{
+  background-image: linear-gradient(to right, rgb(255,255,250) 0,rgba(0,0,0,.0001) 100%) !important;
+
+}
+
+.glyphicon{
+  color: gray !important;
+}
+
+.active img{
+  margin: 0 auto;
+  text-align: center;
+}
 
 
 
